@@ -89,31 +89,36 @@ These are the minimal steps required to start selling with xAsset.
 ***XAsset Quick Install***
 1. Setup Currencies
 
+![img_12.jpg](../assets/img_12.jpg) 
+
 Click on the Currencies tab to setup at least one currency to use as a default. Please see the Currencies for more details. Press create to add this currency.
 2. Configure xAsset
+![img_13.jpg](../assets/img_13.jpg) 
 
 Go back into xAsset by clicking the XAsset logo on the left hand site of the Control Panel. Click on the "xAsset Configuration" link at the top of the page. Select your Base Currency, the Email Notification Group and Usergroup User List . Click on modify to continue.
 
 Return to the XAsset Control Panel and click on the Preferences link in the top left of the navigation bar. Select whether the above columns are displayed when displaying Application Products.
 
 3. Add Regions
-
+![img_14.jpg](../assets/img_14.jpg) 
 Add regions to specify geographic tax locations. Tax Rates will be defined against these Tax Regions.
 
 4. Add Zones.
-
+![img_15.jpg](../assets/img_15.jpg) 
 Next add your zones by clicking on the Zones tab in the xAsset Control Panel. Zones can break down a country into states or regions. If a country does not require any zones then none are needed. In such a situation, the customer will be asked to type in the state/region as opposed to select from a predefined list of zones.
 
 5. Setup Tax Zones and Link to Regions
+![img_16.jpg](../assets/img_16.jpg) 
 
 Next click on the Taxes & Rates tab on the xAsset navigation bar.
 Tax Zones link country zones (or states) and regions to define specific tax rates for that region. This can be used to define a country wide sales tax or defining a zone specific tax... or both.
 Tax Zone can also be set countrywide be selecting All Zones when adding a tax zone.
 
 6. Setup Taxes & Rates
- 
+ ![img_17.jpg](../assets/img_17.jpg) 
 Click on the Taxes & Rates icon in the xAsset Control Panel and add a Tax Class. Press create to continue.
 
+![img_18.jpg](../assets/img_18.jpg) 
 Once a Tax Class is added you will be able to add a Tax rate. The latter will not appear unless there is at least one Tax Class and Tax Region defined. Define your Tax Rates as required for your Region and Tax Class. Press create to continue.
 
 7. Create an Application/Item
