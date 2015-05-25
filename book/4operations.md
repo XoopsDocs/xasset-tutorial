@@ -118,6 +118,8 @@ Once a Tax Class is added you will be able to add a Tax rate. The latter will no
 
 7. Create an Application/Item
 
+![img_11.jpg](../assets/img_11.jpg) 
+
 Click on the Application Tab in the xAsset Control Panel to add an Application or Product.
 
 * Tick the Sample Products box if the Application product has a demo part. This can be a 30 second sample of your track for example. 
@@ -127,25 +129,37 @@ Click on the Application Tab in the xAsset Control Panel to add an Application o
 
 Once an application is created you will be able to add products to it by scrolling further down the Application screen in the xAsset Control Panel.
 
+![img_11.jpg](../assets/img_11.jpg) 
+
 Please read the Application Product page for more details on this. Press create to continue.
 8. Install & Enable the Payment Gateway.
+
+![img_11.jpg](../assets/img_11.jpg) 
+
 Click on the Payment Gateways tab in the xAsset Control Panel. tick the check box next to the Paypal gateway and click the enable button.
 
 Once enabled you should see the above screen. Populate the required fields with your Paypal details.
+
 Please note that the Paypal payment gateway was designed to work with Paypal Merchant accounts only.
+
 These are the minimal steps required to start selling with xAsset.
 
-Control Panel Index Page
+#### Control Panel Index Page
+
 The Control Panel Index page is the default page when entering the xAsset Control Panel. It shows a quick summary of how many applications are defined, licenses have been added, files, links and downloads in total.
+
 Various aspects of xAsset can be configured by clicking on the appropriate tabs such as Applications, Licenses, Links etc.
+
 Global aspects of xAsset can also be defined via the Preferences and xAsset Configuration links.
-#### 
 
 #### General Configuration
 
 The xAsset Properties page can be accessed from xAsset Control Panel and by clicking the Properties link at the top left of the Control Panel navigation tabs.
 
-* Show Min License : If enabled will show the Min License column in the xAsset product page. * Show Max Downloads : if enabled will show the Max Downloads column in the xAsset product page. * Show Max Days : If enabled will show the Max Days column in the xAsset product page. * Show Expires Date : if enabled will show the Expires Date in the xAsset product page.
+* Show Min License : If enabled will show the Min License column in the xAsset product page. 
+* Show Max Downloads : if enabled will show the Max Downloads column in the xAsset product page. 
+* Show Max Days : If enabled will show the Max Days column in the xAsset product page. 
+* Show Expires Date : if enabled will show the Expires Date in the xAsset product page.
 * Membership expiry client warning sets the number of days before a member's subscription expires before a warning email is sent. See Automatic Expiring Subscriptions for further details.
 
 * Order Complete timeout is the length of time the order complete page (shown after a client presses the checkout button on their cart) is shown.
