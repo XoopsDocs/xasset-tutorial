@@ -265,7 +265,10 @@ Examples:
 
 #### Adding An Application Product
 
+![img_11.jpg](../assets/img_11.jpg) 
+
 Once at least one application as been defined it becomes possible to add Application Products.
+
 Please note that you will not be able to add an application product unless: a currency has been defined and set as the default currency, a tax class has been set and finally an application has been defined.
 
 * Enabled : An Application Product is shown on the front page when enabled. Untick Enabled to hide the Application Product from the shop page.
@@ -283,9 +286,14 @@ Please note that you will not be able to add an application product unless: a cu
 * Sample Package Group. This defines which package Group will be available to the client for download as a sample. These can be downloaded immediately from the Application page without a purchase.
 * Add to Xoops User Group. Add the buyer to this Xoops user group on purchasing this application product. This is ideal for selling membership to premium areas of your site for example.
 * Group Membership Expires. Defines a membership expiry date, if any. Please note that quantities ordered have an influence over expiry dates. If a user orders two quantities of an application product that has en expiry date of One Month this will in effect expire in two months. Please note that this setting has no effect unless a group has been defined in Add to Xoops User Group.
+* 
+![img_11.jpg](../assets/img_11.jpg) 
+
 * Extra Instructions provides a mechanism where each application product can specify a special instruction that will be included in the order confirmation sent to the client. This can can include download instructions, for example.
 
 * The Buy Now link generates HTML code than can be copied and pasted to any place on either your website or any other website. Uses can include the generation of Buy Now images that can be placed as banners that direct clients who click to your xAsset cart.
+ 
+![img_11.jpg](../assets/img_11.jpg) 
 
 #### Packages and Groups
 
