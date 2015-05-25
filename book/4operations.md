@@ -4,73 +4,127 @@
 
 XAsset is a Xoops module designed for digital media sales and distribution. Initially this was designed for Shareware authors but the module architecture can also be extended to selling and distributing any digital asset such as MP3 files, EXE files or PDF documents. Anything that can be downloaded can be managed from xAsset.
 
+![img_1.jpg](../assets/img_1.jpg)
+
 As can be seen, the Application is central to xAsset. The application can be seen as the top level object that describes a particular application that is being sold. Another way of looking at an application is thinking of it as a Music album. An album could have multiple tracks, in this case Application Products. An Application product can either describe the whole album (£9.99 for the whole album) or it can describe an individual track (£0.99 per track for example). The Application Products describes your price structure for the Application. An Application can have multiple Application Products.
+
 The Applications physical attributes (ie files) are described via the Package Groups and Packages. Packages describe files where a Package Group groups together Packages. An application can have multiple Package Groups and a Package Group can contain multiple files.
+
+![img_2.jpg](../assets/img_2.jpg)
 
 Tax always creeps up when selling anything! xAsset supports multiple tax levels by defining geographic tax regions and setting appropriate tax rates for each region. The Tax structure is as follows:
 * Each Country can have many zones defined. This structure could be used to describe the USA, as a country, and its states as zones.
 * A tax region can be defined by pairing a Country and a Zone. Tax Regions are used to describe geographic locations where extra tax handling is required. An example would be Region 1 where USA is defines with all zones. This describes a federal tax for example. Region 2 can then be defined to group the USA and New York zone together. This can then define an additional state tax. When a client chooses New York as his state/zone, she will be liable for federal tax (Region 1) and a state tax (Region 2).
 * Each application must have a Tax Class defined, ie "Taxable Goods". This Tax Class can then be set a Tax Rate depending on the Tax Region. This allows you to set the Tax Class "Taxable Goods" and assign a 5% federal tax (Region 1) and a 7% tax (Region 2) using the above example. Non taxable goods must be assigned a tax of 0%.
 * Each client must specify both their Country of Origin and a State/Zone, if one is defined. This is then used to calculate the appropriate tax.
+
 Please read the Tax & Rates section for more information.
 
-Item Ordering Workflow
+#### Item Ordering Workflow
+
+
 There are two types of products that can be sold through xAsset:
-1.
-Media based assets. This can be a pdf file, a zip file, mp3 file etc. Any file that can be bought and downloaded.
-2.
-Service asset. This is a service and as such does not have a corresponding file and cannot be downloaded.
-Asset Based Order Workflow
+1. Media based assets. This can be a pdf file, a zip file, mp3 file etc. Any file that can be bought and downloaded.
+2. Service asset. This is a service and as such does not have a corresponding file and cannot be downloaded.
+ 
+#### Asset Based Order Workflow
+
+![img_3.jpg](../assets/img_3.jpg)
+
 An Application product can have a Package Group assigned to it. A Package group can contain any number of files. Once an application product is ordered it is placed in the Order table and can immediately be seen by the client in the My Downloads section once the client has proceeded to the payment gateway.
+
 Items shown in the My Downloads section only be live and downloadable once the payment gateway has confirmed that a payment was received. In the case of Paypal this is triggered via an IPN callback.
 
-Permission Based Order Workflow
+#### Permission Based Order Workflow
+![img_4.jpg](../assets/img_4.jpg)
+
 Alternatively, an application product can be instructed to add the client to a Xoops Group. Where no Package Group is specified, the client is added to the specified Xoops Group once a successful message is received from the payment gateway.
+
 Please note that the above two mechanisms can be combined. ie, an application product can be specified contains a package group and at the same time adds the client to the specified Xoops Group.
 
-Simple Setup - No Tax
+#### Simple Setup - No Tax
+
 xAsset very quick install when tax features are not intended to be used. This should be the general setup used.
-1. Setup Currencies
+
+![img_5.jpg](../assets/img_5.jpg)
+
 By default xAsset will install the USD and GBP currencies for your. If you require to change this then click on the Currencies tab to setup at least one currency to use as a default. Please see the Currencies for more details. Press create to add this currency.
 
-2. Configure xAsset
+**2. Configure xAsset**
+
+![img_6.jpg](../assets/img_6.jpg) 
+
 Go back into xAsset by clicking the xAsset logo on the left hand site of the Control Panel. Click on the "xAsset Configuration" link at the top of the page. Select your Base Currency, the Email Notification Group and Usergroup User List . Click on modify to continue.
-3. Create an Application/Item
+
+**3. Create an Application/Item**
+ ![img_7.jpg](../assets/img_7.jpg) 
+
 Click on the Application Tab in the xAsset Control Panel to add an Application or Product.
-* Tick the Sample Products box if the Application product has a demo part. This can be a 30 second sample of your track for example. * Tick the List in Main Menu box if this Application Product is to be listed under this module's main menu on the front page. * If the List in Main Menu box is ticked then define the link text in Main Menu Name. * Xoops User Group Access defined which Xoops group has access to this application.
+* Tick the Sample Products box if the Application product has a demo part. This can be a 30 second sample of your track for example. 
+* Tick the List in Main Menu box if this Application Product is to be listed under this module's main menu on the front page. 
+* If the List in Main Menu box is ticked then define the link text in Main Menu Name. 
+* Xoops User Group Access defined which Xoops group has access to this application.
+
 Once an application is created you will be able to add products to it by scrolling further down the Application screen in the xAsset Control Panel.
 
-Install & Enable the Payment Gateway.
+![img_8.jpg](../assets/img_8.jpg) 
+
+**4. Install & Enable the Payment Gateway.**
+
+![img_9.jpg](../assets/img_9.jpg) 
+
 Click on the Payment Gateways tab in the xAsset Control Panel. tick the check box next to the Paypal gateway and click the enable button.
+
+![img_10.jpg](../assets/img_10.jpg) 
 
 Once enabled you should see the above screen. Populate the required fields with your Paypal details.
 Please note that the Paypal payment gateway was designed to work with Paypal Merchant accounts only.
+
+![img_11.jpg](../assets/img_11.jpg) 
+
 These are the minimal steps required to start selling with xAsset.
 
-Tax Setup - Overview
-XAsset Quick Install
+#### Tax Setup - Overview
+
+***XAsset Quick Install***
 1. Setup Currencies
+
 Click on the Currencies tab to setup at least one currency to use as a default. Please see the Currencies for more details. Press create to add this currency.
 2. Configure xAsset
+
 Go back into xAsset by clicking the XAsset logo on the left hand site of the Control Panel. Click on the "xAsset Configuration" link at the top of the page. Select your Base Currency, the Email Notification Group and Usergroup User List . Click on modify to continue.
 
 Return to the XAsset Control Panel and click on the Preferences link in the top left of the navigation bar. Select whether the above columns are displayed when displaying Application Products.
+
 3. Add Regions
+
 Add regions to specify geographic tax locations. Tax Rates will be defined against these Tax Regions.
+
 4. Add Zones.
 
 Next add your zones by clicking on the Zones tab in the xAsset Control Panel. Zones can break down a country into states or regions. If a country does not require any zones then none are needed. In such a situation, the customer will be asked to type in the state/region as opposed to select from a predefined list of zones.
+
 5. Setup Tax Zones and Link to Regions
+
 Next click on the Taxes & Rates tab on the xAsset navigation bar.
 Tax Zones link country zones (or states) and regions to define specific tax rates for that region. This can be used to define a country wide sales tax or defining a zone specific tax... or both.
 Tax Zone can also be set countrywide be selecting All Zones when adding a tax zone.
+
 6. Setup Taxes & Rates
+ 
 Click on the Taxes & Rates icon in the xAsset Control Panel and add a Tax Class. Press create to continue.
+
 Once a Tax Class is added you will be able to add a Tax rate. The latter will not appear unless there is at least one Tax Class and Tax Region defined. Define your Tax Rates as required for your Region and Tax Class. Press create to continue.
 
 7. Create an Application/Item
+
 Click on the Application Tab in the xAsset Control Panel to add an Application or Product.
-* Tick the Sample Products box if the Application product has a demo part. This can be a 30 second sample of your track for example. * Tick the List in Main Menu box if this Application Product is to be listed under this module's main menu on the front page. * If the List in Main Menu box is ticked then define the link text in Main Menu Name. * Xoops User Group Access defined which Xoops group has access to this application.
+
+* Tick the Sample Products box if the Application product has a demo part. This can be a 30 second sample of your track for example. 
+* Tick the List in Main Menu box if this Application Product is to be listed under this module's main menu on the front page. 
+* If the List in Main Menu box is ticked then define the link text in Main Menu Name. 
+* Xoops User Group Access defined which Xoops group has access to this application.
+
 Once an application is created you will be able to add products to it by scrolling further down the Application screen in the xAsset Control Panel.
 
 Please read the Application Product page for more details on this. Press create to continue.
@@ -85,9 +139,12 @@ Control Panel Index Page
 The Control Panel Index page is the default page when entering the xAsset Control Panel. It shows a quick summary of how many applications are defined, licenses have been added, files, links and downloads in total.
 Various aspects of xAsset can be configured by clicking on the appropriate tabs such as Applications, Licenses, Links etc.
 Global aspects of xAsset can also be defined via the Preferences and xAsset Configuration links.
+#### 
 
-General Configuration
+#### General Configuration
+
 The xAsset Properties page can be accessed from xAsset Control Panel and by clicking the Properties link at the top left of the Control Panel navigation tabs.
+
 * Show Min License : If enabled will show the Min License column in the xAsset product page. * Show Max Downloads : if enabled will show the Max Downloads column in the xAsset product page. * Show Max Days : If enabled will show the Max Days column in the xAsset product page. * Show Expires Date : if enabled will show the Expires Date in the xAsset product page.
 * Membership expiry client warning sets the number of days before a member's subscription expires before a warning email is sent. See Automatic Expiring Subscriptions for further details.
 
