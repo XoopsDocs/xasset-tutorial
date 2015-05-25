@@ -394,11 +394,20 @@ Tax Zones describe a specific Tax Zone for a specific country and zone. As can b
 Please note that a Tax Zone cannot be added unless at least one Region and Country has been defined. A countrywide Tax can be defined by selected All Zones for the Zones option.
 * Region : Selected the required region for this zone.
 * Country : Country.
-* Zone : Select the Country Zone. Select "All Zones" if the Tax Zone will apply to
-all zones in a country.
-Adding a Tax Class
-* Code : Code to quickly reference this Tax Class. * Description : Short description.
-Adding a Tax Rate
+* Zone : Select the Country Zone. Select "All Zones" if the Tax Zone will apply to all zones in a country.
+
+#### Adding a Tax Class
+
+![img_12.jpg](../assets/img_12.jpg) 
+
+
+* Code : Code to quickly reference this Tax Class. 
+* Description : Short description.
+
+#### Adding a Tax Rate
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Please note that a Tax Rate cannot be added unless there is at least one Region and one Tax Class defined.
 
 * Region : The required Region.
@@ -407,10 +416,18 @@ Please note that a Tax Rate cannot be added unless there is at least one Region 
 * Priority : Tax rates will the same priority on the same region will combines into one tax. Tax rates with a different priority will be processed in ascending order where tax will be added on the previous tax and amount. An example would be:Region 1 has a tax of 10% and Region 2 has a tax of 5%. If both are priority 1 then the total tax will be 15%. If Region 1 has priority 2 and Region 2 has priority 2 then the total order amount is taxed at 10%. This new value is then the total order plus the 10% tax. This is then taxed at 5% for Region with priority 2.
 * Description : A brief description.
 
-Currencies
+#### Currencies
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Currencies can be managed by clicking on the Currencies tab in the xAsset Control Panel.
-Xasset supports multiple currencies. By defining a base currency for your website, xAsset will convert Application Product prices to the client's preferred currency. Application Product values are then converted using the supplied currency exchange rate.
-Adding a Currency.
+Xasset supports multipl
+e currencies. By defining a base currency for your website, xAsset will convert Application Product prices to the client's preferred currency. Application Product values are then converted using the supplied currency exchange rate.
+
+#### Adding a Currency.
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 * Currency Name : Short name of the Currency.
 * Code : Currency Code. Please note that the correct currency code must be used here as this code is then passed onto the payment gateways for payment processing. Certain payment processors such as Paypal, do have a restriction in which currency codes can be accepted for processing.
 * Decimal Places : Defines how many decimal places are displayed.
