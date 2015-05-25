@@ -360,21 +360,37 @@ Please note that any country you wish to sell to must be defined in this list.
 ![img_12.jpg](../assets/img_12.jpg) 
 
 Zones can be managed from the xAsset Control Panel and by clicking on the Zones tab on the navigation tab.
+
 Zones are used to describe different states or regions in a country. An example of this would be the United States has states. These states can be defined as Zones.
+
 Zones are not required for all countries, as the there is an All Zones option that can be selected when defining a tax zone. Zones should be only defined for countries that have differing tax rates for its zones, as is the case in the United States or Canada.
-Adding a Zone
+
+#### Adding a Zone
+
 * Country Name : Select a Country for which the Zone is to be added.
 * Code : A short code to identify the Zone.
 * Name : The Zone name.
 
-Taxes & Rates
+#### Taxes & Rates
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 The Taxes & Rates page can be accessed by clicking the Taxes and Rates tab in the xAsset Control Panel.
+
 Taxes & Rates are used to defined what types of sales tax is applied to each Application Product. Sales Tax Rates are determined by the country of origin of your customer. Customers from the EU, for example need to be charged Value Added Tax (VAT) for the appropriate items from any supplier in the EU.
+
 A Tax Rate defines the percentage of tax applied to each Application Product. A Tax Class is then used to link the Tax Rate and the Application Product and the Tax Region. This allows you, for example, to have one Sales Tax that is defined for two regions, say the EU and the USA. The Tax rate for the EU will be at 17.5% and the USA Tax Rate would be 11% for example. The correct tax rates is then determined by the country from which your customer is from.
+
 Additional tax regions can be defined for zones to add additional tax rates for each zone.
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Tax Zones describe a specific Tax Zone for a specific country and zone. As can be seen from the above example, a region can either group a Country and all zones under a country, for a federal tax for example, or a Country and a specific state can be defined in a region to describe a state tax. This can be subdivided further by defined cities as zone, for example to define a city tax... etc.
 
-Adding a Tax Zone.
+#### Adding a Tax Zone.
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Please note that a Tax Zone cannot be added unless at least one Region and Country has been defined. A countrywide Tax can be defined by selected All Zones for the Zones option.
 * Region : Selected the required region for this zone.
 * Country : Country.
