@@ -334,20 +334,31 @@ Tax Regions can be managed by clicking on the Regions tab on the xAsset navigati
 Tax regions are used to define geographic regions where tax rates differ. Tax Rates are then defined against Tax Regions.
 
 #### Adding a Region
+
 ![img_11.jpg](../assets/img_11.jpg) 
 
 * Region : Region name. 
 * Description : A brief description.
 
-Countries
+#### Countries
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Click on the Countries tab to maintain and add to the Countries list. The main table shows all defined countries with their respective ISO code. These can be edited and deleted as required.
 Please note that any country you wish to sell to must be defined in this list.
-Adding a Country
+
+#### Adding a Country
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 * Country Name : Name of the country as it will be presented to the website user.
 * ISO2 Code : The ISO2 country code of that country.
 * ISO3 Code : The ISO3 country code of that country.
 
-Zones
+#### Zones
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Zones can be managed from the xAsset Control Panel and by clicking on the Zones tab on the navigation tab.
 Zones are used to describe different states or regions in a country. An example of this would be the United States has states. These states can be defined as Zones.
 Zones are not required for all countries, as the there is an All Zones option that can be selected when defining a tax zone. Zones should be only defined for countries that have differing tax rates for its zones, as is the case in the United States or Canada.
