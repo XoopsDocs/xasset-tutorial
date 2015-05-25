@@ -453,19 +453,35 @@ Downloads are grouped by Package Group and Package. In the above example we can 
 
 #### Payment Gateway
 
+![img_12.jpg](../assets/img_12.jpg) 
 
 Xasset supports multiple payment gateways via a plug in architecture. The Payment Gateway will show the currently installed Payment Gateway. Gateways can be enabled, configured or disabled from this screen.
+
 Gateway can be managed by clicking on the Gateways tab in the xAsset Control Panel.
+
 Each gateway, Paypal for example can be configured separately depending on what gateway parameters are required to process payments via that gateway.
+
 Please contact Panther Software Publishing if you require extra payment gateways.
-Payment Gateway Logs
+
+#### Payment Gateway Logs
+![img_12.jpg](../assets/img_12.jpg) 
+
 The payment gateway logs display all communications between xAsset and the payment gateway. The details here can be useful when trying to determine why a particular payment has failed. In Paypal's case this can be for several reasons and these records can help determine this.
+
 Click on the ID number link to view the log details for that particular log
+
+![img_12.jpg](../assets/img_12.jpg) 
 
 #### Order Tracking
 
+![img_12.jpg](../assets/img_12.jpg) 
+
 The Order Tracking page displays all orders in xAsset, indicating whether they are complete and what the order totals are. Any incomplete order can be manually completed using the Batch Actions mechanism. Please note that completed orders cannot be selected for a manual complete.
+
 Click on the Order ID numbers to access the order details.
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 This screen displays all orders placed through xAsset.
 * Order ID : This is the Order ID as passed to the gateway for payment.
 * User: Xoops username of customer placing an order.
