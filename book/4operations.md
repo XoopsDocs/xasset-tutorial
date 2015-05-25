@@ -250,25 +250,21 @@ The HTML description area recognises and parses the following general tags:
 |{X_MODULE_URL}|Returns a URL to the xAsset module directory|
 
 The following specialised tags are also provided when to describe products:
-TAG
-Description
-{TAG.LIST}
-Works in conjunction with Product List Templates by placing the application product list (as specified by the $smarty template in Product List Template) where specified.
-{TAG.PROD.BUY[option image url]}
-Finds an application product with code PROD and generates a Buy Now button for it. You can optionally supply an image URL to be used for the button. If an optional image URL is not supplied then
 
-the default Buy Now button is used.
-{TAG.PROD.PRICE}
-Finds an application product with code PROD and returns a formatted price using the currently selected currency format.
-{TAG.PROD.DESC}
-Finds an application product with code PROD and returns the product description.
-{TAG.PROD.VIDEO[package id]}
-Generates a Flash Player in place of the token and prepares the video specified in [package id] for playing.
+|TAG | Description |
+| -- | -- |
+|{TAG.LIST}|Works in conjunction with Product List Templates by placing the application product list (as specified by the $smarty template in Product List Template) where specified.|
+|{TAG.PROD.BUY[option image url]}|Finds an application product with code PROD and generates a Buy Now button for it. You can optionally supply an image URL to be used for the button. If an optional image URL is not supplied then the default Buy Now button is used.|
+|{TAG.PROD.PRICE}|Finds an application product with code PROD and returns a formatted price using the currently selected currency format.|
+|{TAG.PROD.DESC}|Finds an application product with code PROD and returns the product description.|
+|{TAG.PROD.VIDEO[package id]}|Generates a Flash Player in place of the token and prepares the video specified in [package id] for playing.|
+
 Examples:
 1. An application with a product code of PROD1. To generate a Buy Now button using the image in http://domain.com/image/buynow.gif:
 {TAG.PROD1.BUY[http://domain.com/image/buynow.gif]}
 
-Adding An Application Product
+#### Adding An Application Product
+
 Once at least one application as been defined it becomes possible to add Application Products.
 Please note that you will not be able to add an application product unless: a currency has been defined and set as the default currency, a tax class has been set and finally an application has been defined.
 
