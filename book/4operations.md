@@ -240,30 +240,15 @@ HTML Description Tag replacements
 
 The HTML description area recognises and parses the following general tags:
 
-| 0:0 | 1:0 |
+|TAG | Description |
 | -- | -- |
-| 0:2 | 1:2 |
-| 0:3 | 1:3 |
-| 0:4 | 1:4 |
-| 0:5 | 1:5 |
-| 0:6 | 1:6 |
-| 0:7 | 1:7 |
+|{X_MODULE}|Returns the module name (xAsset)|
+|{X_SITEURL}|Returns XOOPS_URL|
+|{X_DOCROOT}|Returns a URL to xAsset/files|
+|{X_SITENAME}|Returns the site name as setup in Admin -> Preferences|
+|{X_ADMINMAIL}|Returns the admin email as setup in Admin -> Preferences|
+|{X_MODULE_URL}|Returns a URL to the xAsset module directory|
 
-
-TAG
-Description
-{X_MODULE}
-Returns the module name (xAsset)
-{X_SITEURL}
-Returns XOOPS_URL
-{X_DOCROOT}
-Returns a URL to xAsset/files
-{X_SITENAME}
-Returns the site name as setup in Admin -> Preferences
-{X_ADMINMAIL}
-Returns the admin email as setup in Admin -> Preferences
-{X_MODULE_URL}
-Returns a URL to the xAsset module directory
 The following specialised tags are also provided when to describe products:
 TAG
 Description
@@ -301,8 +286,7 @@ Please note that you will not be able to add an application product unless: a cu
 * Purchase Package Group. This defines which Package Group will be available to the client for download once her purchase is complete.
 * Sample Package Group. This defines which package Group will be available to the client for download as a sample. These can be downloaded immediately from the Application page without a purchase.
 * Add to Xoops User Group. Add the buyer to this Xoops user group on purchasing this application product. This is ideal for selling membership to premium areas of your site for example.
-* Group Membership Expires. Defines a membership expiry date, if any. Please note that quantities ordered have an influence over expiry dates. If a user orders two quantities of an application product that has en expiry date of One Month this will in effect expire in two months. Please note that this setting has no effect
-unless a group has been defined in Add to Xoops User Group.
+* Group Membership Expires. Defines a membership expiry date, if any. Please note that quantities ordered have an influence over expiry dates. If a user orders two quantities of an application product that has en expiry date of One Month this will in effect expire in two months. Please note that this setting has no effect unless a group has been defined in Add to Xoops User Group.
 * Extra Instructions provides a mechanism where each application product can specify a special instruction that will be included in the order confirmation sent to the client. This can can include download instructions, for example.
 
 * The Buy Now link generates HTML code than can be copied and pasted to any place on either your website or any other website. Uses can include the generation of Buy Now images that can be placed as banners that direct clients who click to your xAsset cart.
@@ -317,7 +301,10 @@ Adding a Package Group.
 · Description : A Brief Description.
 · Version : Version Number.
 
-Adding a Package
+#### Adding a Package
+
+![img_11.jpg](../assets/img_11.jpg) 
+
 * Package Group : Select the previously defined or required Package Group to which this Package will be added to.
 * Display Name : This will be the text displayed to the site visitor for the file link.
 * Actual File Path : This is the actual path of the file on the webserver. It is strongly advised that these files be placed outside your public_html or www directory to prevent direct linking. It is strongly advised that a new directory be created that is in the same directory as public_html (but not inside it) and file be placed there. This will prevent direct file linking to your assets. Please note that the Actual File Path is the physical path to your file... i.e. /home/mydomain/public_html/files/myfile.mp3 and not a URL. If you specify a URL then the download mechanism will not work.
@@ -401,7 +388,8 @@ Payment Gateway Logs
 The payment gateway logs display all communications between xAsset and the payment gateway. The details here can be useful when trying to determine why a particular payment has failed. In Paypal's case this can be for several reasons and these records can help determine this.
 Click on the ID number link to view the log details for that particular log
 
-Order Tracking
+#### Order Tracking
+
 The Order Tracking page displays all orders in xAsset, indicating whether they are complete and what the order totals are. Any incomplete order can be manually completed using the Batch Actions mechanism. Please note that completed orders cannot be selected for a manual complete.
 Click on the Order ID numbers to access the order details.
 This screen displays all orders placed through xAsset.
