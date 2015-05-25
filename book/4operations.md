@@ -491,22 +491,20 @@ indicated that this order is complete.
 * Currency: Currency of the order.
 * Order Value : Total Order Value.
 *Order Fee : Order handling fee as charged by the payment gateway.
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Additional information such as the ordered items (with quantities) and any gateway logs will be displayed.
 
 Please note that the Order Status is either of:
-1.
-New Order. The client has just added the item to her cart.
-2.
-At Checkout. The client has proceeded to checkout.
-3.
-Gone to Gateway. The client has been sent to her choice of payment gateway (if multiple payment gateways are installed).
-4.
-Awaiting Validation. The client has returned from the payment gateway but if a validating payment gateway is selected (ie Paypal's IPN), then the server is waiting for the confirmation from the payment gateway.
-5.
-Complete. Order is complete.
+1. New Order. The client has just added the item to her cart.
+2. At Checkout. The client has proceeded to checkout.
+3. Gone to Gateway. The client has been sent to her choice of payment gateway (if multiple payment gateways are installed).
+4. Awaiting Validation. The client has returned from the payment gateway but if a validating payment gateway is selected (ie Paypal's IPN), then the server is waiting for the confirmation from the payment gateway.
+5. Complete. Order is complete.
 
 #### Group Membership
-
+![img_12.jpg](../assets/img_12.jpg) 
 The Group membership tabbed (under the Membership tab) displays a list of all UIDs that have been allocated to Xoops Groups when purchasing an Application Product.
 This screen will list all such members and sort the result according to expiry dates. Any members that who's membership has expired will display the Expires date in bold.
 Please note the following:
