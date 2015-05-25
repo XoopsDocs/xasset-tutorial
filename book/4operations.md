@@ -138,13 +138,19 @@ Please read the Application Product page for more details on this. Press create 
 
 Click on the Payment Gateways tab in the xAsset Control Panel. tick the check box next to the Paypal gateway and click the enable button.
 
+![img_11.jpg](../assets/img_11.jpg) 
+
 Once enabled you should see the above screen. Populate the required fields with your Paypal details.
 
 Please note that the Paypal payment gateway was designed to work with Paypal Merchant accounts only.
 
+![img_11.jpg](../assets/img_11.jpg) 
+
 These are the minimal steps required to start selling with xAsset.
 
 #### Control Panel Index Page
+
+![img_11.jpg](../assets/img_11.jpg) 
 
 The Control Panel Index page is the default page when entering the xAsset Control Panel. It shows a quick summary of how many applications are defined, licenses have been added, files, links and downloads in total.
 
@@ -154,6 +160,8 @@ Global aspects of xAsset can also be defined via the Preferences and xAsset Conf
 
 #### General Configuration
 
+![img_11.jpg](../assets/img_11.jpg) 
+
 The xAsset Properties page can be accessed from xAsset Control Panel and by clicking the Properties link at the top left of the Control Panel navigation tabs.
 
 * Show Min License : If enabled will show the Min License column in the xAsset product page. 
@@ -162,50 +170,86 @@ The xAsset Properties page can be accessed from xAsset Control Panel and by clic
 * Show Expires Date : if enabled will show the Expires Date in the xAsset product page.
 * Membership expiry client warning sets the number of days before a member's subscription expires before a warning email is sent. See Automatic Expiring Subscriptions for further details.
 
+![img_11.jpg](../assets/img_11.jpg) 
+
 * Order Complete timeout is the length of time the order complete page (shown after a client presses the checkout button on their cart) is shown.
 * xAsset redirected clients to the xAsset index page on order completion. This redirection location can be overridden by keying in an alternative address (ie http://www.mysite.com).
 * Secret Encrypt Key is the encryption key used to sign FLV videos. A random unique key is generated when installing xAsset for the first time.
 * Enable Bandwidth Throttling. By default this is set to No. If you wish to throttle FLV Video streaming bandwidth then set this to Yes and set the throttling rate. Please note that Bandwidth Throttling is still experimental and might not function as expected on all platforms.
-* Bandwidth Throttling Rate controls the rate at which FLV videos are streamed to each users. Bandwidth throttling is important because it controls the rate at which videos are streamed. A typical FLV video requires an upload bandwidth of 100k per second to play back smoothly. If no bandwidth throttling is set then users with very fast connections could use all your bandwidth this affecting other users. Throttling insures that your bandwidth is shared equally amongst many users. By default this is set to 128 k/second. Increase this value if your videos require more bandwidth or decrease if your videos require less bandwidth. Please note that setting this value too low will result in choppy playback. You might need to experiment to find the ideal setting (although 128k/s should do fine for most
-videos).
-* Product Window Width/Height specify the width/height of the application product detail screen that is shown when an application product has a HTML
-Description. This product description is shown in a popup window.
-The xAsset Configuration page can be accessed from the Control Panel by clicking the xAsset configuration link at the top left of the navigation tabs.
-* User Group List: This option is for future use. * Email Notification Group : This is the Xoops Group to which sales notifications will be emailed to. * Base Currency : This is the base currency which will be presented to the user by default.
+* Bandwidth Throttling Rate controls the rate at which FLV videos are streamed to each users. Bandwidth throttling is important because it controls the rate at which videos are streamed. A typical FLV video requires an upload bandwidth of 100k per second to play back smoothly. If no bandwidth throttling is set then users with very fast connections could use all your bandwidth this affecting other users. Throttling insures that your bandwidth is shared equally amongst many users. By default this is set to 128 k/second. Increase this value if your videos require more bandwidth or decrease if your videos require less bandwidth. Please note that setting this value too low will result in choppy playback. You might need to experiment to find the ideal setting (although 128k/s should do fine for most videos).
 
-Application Setup
+![img_11.jpg](../assets/img_11.jpg) 
+
+* Product Window Width/Height specify the width/height of the application product detail screen that is shown when an application product has a HTML Description. This product description is shown in a popup window.
+
+![img_11.jpg](../assets/img_11.jpg) 
+
+The xAsset Configuration page can be accessed from the Control Panel by clicking the xAsset configuration link at the top left of the navigation tabs.
+
+* User Group List: This option is for future use. 
+* Email Notification Group: This is the Xoops Group to which sales notifications will be emailed to. 
+* Base Currency : This is the base currency which will be presented to the user by default.
+
+#### Application Setup
+
+![img_11.jpg](../assets/img_11.jpg) 
+
 The Applications tab shows all defined applications in xAsset. This screen also shows all defined Application Products for each application. In the above example we have four Application Products (Prod1..Prod4) defined under PSP News for example.
+
 The Application row describes:
+
 * ID : The Application ID
 * Application : The Application Name.
 * Products : Number of Application Products for this Application.
-* Downloads : Total File downloads for this Application. More detail can be seen in
-the Download Stats page.
+* Downloads : Total File downloads for this Application. More detail can be seen in the Download Stats page.
+ 
 The Application Product row describes:
+
 * Code : The defined Application Product Code.
 * Tax Code : Defined Tax Class for this Application Product.
-* Base Currency : Base currency for this Application Product. Please see the
-Currencies section for more detail. * Unit Price : The Application Product price in the Base Currency. * Min Unit : This is the minimum number of quantities that can be selected for this
-price. Designed for bulk discounts for example.
+* Base Currency : Base currency for this Application Product. Please see the Currencies section for more detail. 
+* Unit Price : The Application Product price in the Base Currency. 
+* Min Unit : This is the minimum number of quantities that can be selected for this price. Designed for bulk discounts for example.
 * Max Downloads : Is the maximum number of times a file can be downloaded. This can be used to limit how many times an MP3 can be downloaded. 0 means that there are no limits on download.
 * Expires defines where this Application Product will expire. Application products will no longer be visible to the user once the offer has expires. Can be used for limited time promotions.
 
-Adding an Application
+#### Adding an Application
+
+![img_11.jpg](../assets/img_11.jpg) 
+
 * Application Name : Name of the Application as it appears to the user.
 * Application Description : Short text description as it appears to the user.
 * Platform : Short text description to define application platforms (if applicable).
 * Version : Version number.
 * Tick the Has Sample Products box if the Application product has a demo part.
-This can be a 30 second sample of your track for example. This will show an
-extra column in the application product grid on the shop frontpage. * Tick relevant Group permissions in Xoops User Group Access. * Application Image can optionally contain the path to an images to represents this
-application. Image paths must be absolute (i.e.
+This can be a 30 second sample of your track for example. This will show an extra column in the application product grid on the shop frontpage. 
+* Tick relevant Group permissions in Xoops User Group Access. 
+* Application Image can optionally contain the path to an images to represents this application. Image paths must be absolute (i.e.
 /home/yoursite/html/images/app1.gif).
+
+![img_11.jpg](../assets/img_11.jpg) 
+
 * HTML Description : Add HTML text here to fully describe your product. As this is HTML it can contain images, links etc... The HTML Description area can also parse specific tags:
+
+![img_11.jpg](../assets/img_11.jpg) 
 
 * List all products is ticket by default. When ticked, xAsset will automatically generate a table with all application products. Untick this if you do not want an auto generated list of products but want to display your own list instead.
 * Product List Template enables each application to provide its own Smarty template on how its products are displayed. This overrides the default product listing method. Extra control is provided for positioning by using the {TAG.LIST} in the Application Description.
+
 HTML Description Tag replacements
+
 The HTML description area recognises and parses the following general tags:
+
+| 0:0 | 1:0 |
+| -- | -- |
+| 0:2 | 1:2 |
+| 0:3 | 1:3 |
+| 0:4 | 1:4 |
+| 0:5 | 1:5 |
+| 0:6 | 1:6 |
+| 0:7 | 1:7 |
+
+
 TAG
 Description
 {X_MODULE}
