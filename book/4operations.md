@@ -444,10 +444,16 @@ Please note that the Decimal Places, Symbol Left, Symbol Right, Decimal Symbol a
 ![img_12.jpg](../assets/img_12.jpg) 
 
 Xasset tracks all Package downloads by logging the logged in User, if a registered licensed user, their IP address and the date and time of the download. This information can be accessed from the Download Stats tab from the xAsset Control Panel.
+
 The above table provides a brief summary of all defined Applications with total package downloads per application. Click on the required Application for a more detailed download stats
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Downloads are grouped by Package Group and Package. In the above example we can see the download stats for SimplePop. SimplePop has one Package Group defined, Executable. This Package Group contains two packages, Help file and Main file. The download stats shows a detailed breakdown for both packages.
 
-Payment Gateway
+#### Payment Gateway
+
+
 Xasset supports multiple payment gateways via a plug in architecture. The Payment Gateway will show the currently installed Payment Gateway. Gateways can be enabled, configured or disabled from this screen.
 Gateway can be managed by clicking on the Gateways tab in the xAsset Control Panel.
 Each gateway, Paypal for example can be configured separately depending on what gateway parameters are required to process payments via that gateway.
