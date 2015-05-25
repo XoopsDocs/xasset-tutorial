@@ -375,6 +375,8 @@ Zones are used to describe different states or regions in a country. An example 
 
 Zones are not required for all countries, as the there is an All Zones option that can be selected when defining a tax zone. Zones should be only defined for countries that have differing tax rates for its zones, as is the case in the United States or Canada.
 
+![img_45.jpg](../assets/img_45.jpg) 
+
 #### Adding a Zone
 
 * Country Name : Select a Country for which the Zone is to be added.
@@ -383,7 +385,7 @@ Zones are not required for all countries, as the there is an All Zones option th
 
 #### Taxes & Rates
 
-![img_45.jpg](../assets/img_45.jpg) 
+![img_46.jpg](../assets/img_46.jpg) 
 
 The Taxes & Rates page can be accessed by clicking the Taxes and Rates tab in the xAsset Control Panel.
 
@@ -393,13 +395,13 @@ A Tax Rate defines the percentage of tax applied to each Application Product. A 
 
 Additional tax regions can be defined for zones to add additional tax rates for each zone.
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_47.jpg](../assets/img_47.jpg) 
 
 Tax Zones describe a specific Tax Zone for a specific country and zone. As can be seen from the above example, a region can either group a Country and all zones under a country, for a federal tax for example, or a Country and a specific state can be defined in a region to describe a state tax. This can be subdivided further by defined cities as zone, for example to define a city tax... etc.
 
 #### Adding a Tax Zone.
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_48.jpg](../assets/img_48.jpg) 
 
 Please note that a Tax Zone cannot be added unless at least one Region and Country has been defined. A countrywide Tax can be defined by selected All Zones for the Zones option.
 * Region : Selected the required region for this zone.
@@ -408,7 +410,7 @@ Please note that a Tax Zone cannot be added unless at least one Region and Count
 
 #### Adding a Tax Class
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_49.jpg](../assets/img_49.jpg) 
 
 
 * Code : Code to quickly reference this Tax Class. 
@@ -416,7 +418,7 @@ Please note that a Tax Zone cannot be added unless at least one Region and Count
 
 #### Adding a Tax Rate
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_50.jpg](../assets/img_50.jpg) 
 
 Please note that a Tax Rate cannot be added unless there is at least one Region and one Tax Class defined.
 
@@ -428,7 +430,7 @@ Please note that a Tax Rate cannot be added unless there is at least one Region 
 
 #### Currencies
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_51.jpg](../assets/img_51.jpg) 
 
 Currencies can be managed by clicking on the Currencies tab in the xAsset Control Panel.
 
@@ -436,7 +438,7 @@ Xasset supports multiple currencies. By defining a base currency for your websit
 
 #### Adding a Currency.
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_52.jpg](../assets/img_52.jpg) 
 
 * Currency Name : Short name of the Currency.
 * Code : Currency Code. Please note that the correct currency code must be used here as this code is then passed onto the payment gateways for payment processing. Certain payment processors such as Paypal, do have a restriction in which currency codes can be accepted for processing.
@@ -451,19 +453,19 @@ Please note that the Decimal Places, Symbol Left, Symbol Right, Decimal Symbol a
 
 #### Download Stats
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_53.jpg](../assets/img_53.jpg) 
 
 Xasset tracks all Package downloads by logging the logged in User, if a registered licensed user, their IP address and the date and time of the download. This information can be accessed from the Download Stats tab from the xAsset Control Panel.
 
 The above table provides a brief summary of all defined Applications with total package downloads per application. Click on the required Application for a more detailed download stats
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_54.jpg](../assets/img_54.jpg) 
 
 Downloads are grouped by Package Group and Package. In the above example we can see the download stats for SimplePop. SimplePop has one Package Group defined, Executable. This Package Group contains two packages, Help file and Main file. The download stats shows a detailed breakdown for both packages.
 
 #### Payment Gateway
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_55.jpg](../assets/img_55.jpg) 
 
 Xasset supports multiple payment gateways via a plug in architecture. The Payment Gateway will show the currently installed Payment Gateway. Gateways can be enabled, configured or disabled from this screen.
 
@@ -474,23 +476,23 @@ Each gateway, Paypal for example can be configured separately depending on what 
 Please contact Panther Software Publishing if you require extra payment gateways.
 
 #### Payment Gateway Logs
-![img_12.jpg](../assets/img_12.jpg) 
+![img_56.jpg](../assets/img_56.jpg) 
 
 The payment gateway logs display all communications between xAsset and the payment gateway. The details here can be useful when trying to determine why a particular payment has failed. In Paypal's case this can be for several reasons and these records can help determine this.
 
 Click on the ID number link to view the log details for that particular log
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_57.jpg](../assets/img_57.jpg) 
 
 #### Order Tracking
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_58.jpg](../assets/img_58.jpg) 
 
 The Order Tracking page displays all orders in xAsset, indicating whether they are complete and what the order totals are. Any incomplete order can be manually completed using the Batch Actions mechanism. Please note that completed orders cannot be selected for a manual complete.
 
 Click on the Order ID numbers to access the order details.
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_59.jpg](../assets/img_59.jpg) 
 
 This screen displays all orders placed through xAsset.
 * Order ID : This is the Order ID as passed to the gateway for payment.
@@ -502,7 +504,7 @@ indicated that this order is complete.
 * Order Value : Total Order Value.
 *Order Fee : Order handling fee as charged by the payment gateway.
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_60.jpg](../assets/img_60.jpg) 
 
 Additional information such as the ordered items (with quantities) and any gateway logs will be displayed.
 
@@ -515,7 +517,7 @@ Please note that the Order Status is either of:
 
 #### Group Membership
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_61.jpg](../assets/img_61.jpg) 
 
 The Group membership tabbed (under the Membership tab) displays a list of all UIDs that have been allocated to Xoops Groups when purchasing an Application Product.
 
@@ -530,7 +532,7 @@ Please read the Subscriptions section for further information.
 
 #### Paypal
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_62.jpg](../assets/img_62.jpg) 
 
 Paypal is the default Payment Gateway provided with xAsset.
 
@@ -561,7 +563,7 @@ Please note that the Paypal plugin version must match the current xAsset version
 
 #### Bill Me
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_63.jpg](../assets/img_63.jpg) 
 
 The Bill plugin is a very simple plugin allowing clients to choose a "Bill Me Later" option. Clients who choose this method of payment will still receive an order confirmation email detailing their order. These order, however, will require manual processing in the Order Tracking page.
 
@@ -573,7 +575,7 @@ In the Order Tracking page select manual orders and choose Complete Orders Manua
 
 The Applications setup page describes how to it is possible to sell membership using xAsset by defining a Xoops group that the client is added to when the order is complete.
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_64.jpg](../assets/img_64.jpg) 
 
 A new feature in xAsset 0.92 is the ability for your clients to view their current subscription plan details along with an option to extend these plans through a Buy Now button.
 
@@ -633,7 +635,7 @@ The above can be setup as follows:
 
 #### Currencies
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_65.jpg](../assets/img_65.jpg) 
 
 The currencies block displays all available currencies for your clients. By default this block is disabled but must be enabled if you intend to use multiple currencies with xAsset. All price information is displayed by the chosen currency.
 
@@ -642,7 +644,7 @@ Ideally this block should be visible in the xAsset module only.
 
 #### Top Downloads
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_66.jpg](../assets/img_66.jpg) 
 
 Presents a Top x downloads block that shows the most popular downloads (if you are hosting files) or videos (if you are hosting videos) that have been purchased and watched. By default this block shows the top 10 most popular downloads.
 
@@ -652,7 +654,7 @@ Ideally this block should be displayed on all pages.
 
 #### Application Picture List
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_67.jpg](../assets/img_67.jpg) 
 
 The Application Picture list block will list any application which has an Application Image.
 
@@ -662,6 +664,6 @@ Ideally this block should be displayed on all pages.
 
 #### Applications
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_68.jpg](../assets/img_68.jpg) 
 
 The Applications Block simply lists all xAsset applications in a block. This is useful when the Main menu has been disabled and an alternative method for listing applications is required.
