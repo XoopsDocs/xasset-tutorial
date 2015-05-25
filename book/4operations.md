@@ -297,13 +297,21 @@ Please note that you will not be able to add an application product unless: a cu
 
 #### Packages and Groups
 
+![img_11.jpg](../assets/img_11.jpg) 
+
 Packages represent files that are to be distributed. Be they ZIP, EXE or MP3 files. Packages are grouped in a Package Group. Each Application can have any number of Package Groups. This allows you to sell multiple files per application group.
+
 Please note the green tick on the right of the Groups & Packages package (xAsset PDF manual) provides a link to download the shown package. This link can be copied and placed anywhere on your site (as part of a news article for example). Also note the warning image to the right of it. This indicates that this is a protected package and it cannot be downloaded unless it has been purchased.
+
 Click on the Package Packages tab in the xAsset Control Panel to access the Package and Package Groups page. The main table lists Applications that have Package Groups. The selected Application is highlighted in bold. Other Application's Package Groups can be accessed and managed by clicking on the required application in the above table.
-Adding a Package Group.
-· Group Name : The name displayed to the site visitor for this Application Group.
-· Description : A Brief Description.
-· Version : Version Number.
+
+#### Adding a Package Group.
+
+![img_11.jpg](../assets/img_11.jpg) 
+
+**Group Name**: The name displayed to the site visitor for this Application Group.
+**Description**: A Brief Description.
+**Version**: Version Number.
 
 #### Adding a Package
 
