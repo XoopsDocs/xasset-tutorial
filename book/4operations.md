@@ -622,13 +622,17 @@ The above can be setup as follows:
 * Finally, link each Package Group to the application product.
 
 #### Currencies
+
 ![img_12.jpg](../assets/img_12.jpg) 
+
 The currencies block displays all available currencies for your clients. By default this block is disabled but must be enabled if you intend to use multiple currencies with xAsset. All price information is displayed by the chosen currency.
 
 Ideally this block should be visible in the xAsset module only.
 
 
 #### Top Downloads
+
+![img_12.jpg](../assets/img_12.jpg) 
 
 Presents a Top x downloads block that shows the most popular downloads (if you are hosting files) or videos (if you are hosting videos) that have been purchased and watched. By default this block shows the top 10 most popular downloads.
 
@@ -638,6 +642,8 @@ Ideally this block should be displayed on all pages.
 
 #### Application Picture List
 
+![img_12.jpg](../assets/img_12.jpg) 
+
 The Application Picture list block will list any application which has an Application Image.
 
 Ideally this block can be used to construct an image thumbnail view of all your applications. Please note that this block will not list applications with blank Application Image paths.
@@ -645,5 +651,7 @@ Ideally this block can be used to construct an image thumbnail view of all your 
 Ideally this block should be displayed on all pages.
 
 #### Applications
+
+![img_12.jpg](../assets/img_12.jpg) 
 
 The Applications Block simply lists all xAsset applications in a block. This is useful when the Main menu has been disabled and an alternative method for listing applications is required.
