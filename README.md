@@ -1,7 +1,7 @@
 ### _XOOPS Documentation Series_
 ![logoXoops.jpg](assets/logoXoops.jpg)
 
-# Module XXX
+# Module xAssets
 #### for XOOPS 2.5.7
       
 ![logoModule.png](assets/logoModule.png)
@@ -15,7 +15,7 @@
 This module is for .....
 
 ![image001.png](assets/image001.png)
-*Figure 1: Main view of the XXX Module (Admin side)*
+*Figure 1: Main view of the xAssets Module (Admin side)*
 
 # Table of Content
 
