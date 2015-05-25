@@ -144,23 +144,23 @@ Once an application is created you will be able to add products to it by scrolli
 Please read the Application Product page for more details on this. Press create to continue.
 8. Install & Enable the Payment Gateway.
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_22.jpg](../assets/img_22.jpg) 
 
 Click on the Payment Gateways tab in the xAsset Control Panel. tick the check box next to the Paypal gateway and click the enable button.
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_23.jpg](../assets/img_23.jpg) 
 
 Once enabled you should see the above screen. Populate the required fields with your Paypal details.
 
 Please note that the Paypal payment gateway was designed to work with Paypal Merchant accounts only.
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_24.jpg](../assets/img_24.jpg) 
 
 These are the minimal steps required to start selling with xAsset.
 
 #### Control Panel Index Page
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_25.jpg](../assets/img_25.jpg) 
 
 The Control Panel Index page is the default page when entering the xAsset Control Panel. It shows a quick summary of how many applications are defined, licenses have been added, files, links and downloads in total.
 
@@ -170,7 +170,7 @@ Global aspects of xAsset can also be defined via the Preferences and xAsset Conf
 
 #### General Configuration
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_26.jpg](../assets/img_26.jpg) 
 
 The xAsset Properties page can be accessed from xAsset Control Panel and by clicking the Properties link at the top left of the Control Panel navigation tabs.
 
@@ -180,7 +180,7 @@ The xAsset Properties page can be accessed from xAsset Control Panel and by clic
 * Show Expires Date : if enabled will show the Expires Date in the xAsset product page.
 * Membership expiry client warning sets the number of days before a member's subscription expires before a warning email is sent. See Automatic Expiring Subscriptions for further details.
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_11.jpg](../assets/img_27.jpg) 
 
 * Order Complete timeout is the length of time the order complete page (shown after a client presses the checkout button on their cart) is shown.
 * xAsset redirected clients to the xAsset index page on order completion. This redirection location can be overridden by keying in an alternative address (ie http://www.mysite.com).
@@ -188,11 +188,11 @@ The xAsset Properties page can be accessed from xAsset Control Panel and by clic
 * Enable Bandwidth Throttling. By default this is set to No. If you wish to throttle FLV Video streaming bandwidth then set this to Yes and set the throttling rate. Please note that Bandwidth Throttling is still experimental and might not function as expected on all platforms.
 * Bandwidth Throttling Rate controls the rate at which FLV videos are streamed to each users. Bandwidth throttling is important because it controls the rate at which videos are streamed. A typical FLV video requires an upload bandwidth of 100k per second to play back smoothly. If no bandwidth throttling is set then users with very fast connections could use all your bandwidth this affecting other users. Throttling insures that your bandwidth is shared equally amongst many users. By default this is set to 128 k/second. Increase this value if your videos require more bandwidth or decrease if your videos require less bandwidth. Please note that setting this value too low will result in choppy playback. You might need to experiment to find the ideal setting (although 128k/s should do fine for most videos).
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_28.jpg](../assets/img_28.jpg) 
 
 * Product Window Width/Height specify the width/height of the application product detail screen that is shown when an application product has a HTML Description. This product description is shown in a popup window.
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_29.jpg](../assets/img_29.jpg) 
 
 The xAsset Configuration page can be accessed from the Control Panel by clicking the xAsset configuration link at the top left of the navigation tabs.
 
@@ -202,7 +202,7 @@ The xAsset Configuration page can be accessed from the Control Panel by clicking
 
 #### Application Setup
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_30.jpg](../assets/img_30.jpg) 
 
 The Applications tab shows all defined applications in xAsset. This screen also shows all defined Application Products for each application. In the above example we have four Application Products (Prod1..Prod4) defined under PSP News for example.
 
@@ -225,7 +225,7 @@ The Application Product row describes:
 
 #### Adding an Application
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_11.jpg](../assets/img_31.jpg) 
 
 * Application Name : Name of the Application as it appears to the user.
 * Application Description : Short text description as it appears to the user.
@@ -237,11 +237,11 @@ This can be a 30 second sample of your track for example. This will show an extr
 * Application Image can optionally contain the path to an images to represents this application. Image paths must be absolute (i.e.
 /home/yoursite/html/images/app1.gif).
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_32.jpg](../assets/img_32.jpg) 
 
 * HTML Description : Add HTML text here to fully describe your product. As this is HTML it can contain images, links etc... The HTML Description area can also parse specific tags:
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_33.jpg](../assets/img_33.jpg) 
 
 * List all products is ticket by default. When ticked, xAsset will automatically generate a table with all application products. Untick this if you do not want an auto generated list of products but want to display your own list instead.
 * Product List Template enables each application to provide its own Smarty template on how its products are displayed. This overrides the default product listing method. Extra control is provided for positioning by using the {TAG.LIST} in the Application Description.
@@ -275,7 +275,7 @@ Examples:
 
 #### Adding An Application Product
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_34.jpg](../assets/img_34.jpg) 
 
 Once at least one application as been defined it becomes possible to add Application Products.
 
@@ -297,17 +297,17 @@ Please note that you will not be able to add an application product unless: a cu
 * Add to Xoops User Group. Add the buyer to this Xoops user group on purchasing this application product. This is ideal for selling membership to premium areas of your site for example.
 * Group Membership Expires. Defines a membership expiry date, if any. Please note that quantities ordered have an influence over expiry dates. If a user orders two quantities of an application product that has en expiry date of One Month this will in effect expire in two months. Please note that this setting has no effect unless a group has been defined in Add to Xoops User Group.
 * 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_35.jpg](../assets/img_35.jpg) 
 
 * Extra Instructions provides a mechanism where each application product can specify a special instruction that will be included in the order confirmation sent to the client. This can can include download instructions, for example.
 
 * The Buy Now link generates HTML code than can be copied and pasted to any place on either your website or any other website. Uses can include the generation of Buy Now images that can be placed as banners that direct clients who click to your xAsset cart.
  
-![img_11.jpg](../assets/img_11.jpg) 
+![img_36.jpg](../assets/img_36.jpg) 
 
 #### Packages and Groups
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_37.jpg](../assets/img_37.jpg) 
 
 Packages represent files that are to be distributed. Be they ZIP, EXE or MP3 files. Packages are grouped in a Package Group. Each Application can have any number of Package Groups. This allows you to sell multiple files per application group.
 
@@ -317,7 +317,7 @@ Click on the Package Packages tab in the xAsset Control Panel to access the Pack
 
 #### Adding a Package Group.
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_38.jpg](../assets/img_38.jpg) 
 
 **Group Name**: The name displayed to the site visitor for this Application Group.
 **Description**: A Brief Description.
@@ -325,7 +325,7 @@ Click on the Package Packages tab in the xAsset Control Panel to access the Pack
 
 #### Adding a Package
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_39.jpg](../assets/img_39.jpg) 
 
 * Package Group : Select the previously defined or required Package Group to which this Package will be added to.
 * Display Name : This will be the text displayed to the site visitor for the file link.
@@ -337,7 +337,7 @@ Click on the Package Packages tab in the xAsset Control Panel to access the Pack
 
 #### Tax Regions
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_40.jpg](../assets/img_40.jpg) 
 
 Tax Regions can be managed by clicking on the Regions tab on the xAsset navigation tab.
 
@@ -345,21 +345,21 @@ Tax regions are used to define geographic regions where tax rates differ. Tax Ra
 
 #### Adding a Region
 
-![img_11.jpg](../assets/img_11.jpg) 
+![img_41.jpg](../assets/img_41.jpg) 
 
 * Region : Region name. 
 * Description : A brief description.
 
 #### Countries
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_42.jpg](../assets/img_42.jpg) 
 
 Click on the Countries tab to maintain and add to the Countries list. The main table shows all defined countries with their respective ISO code. These can be edited and deleted as required.
 Please note that any country you wish to sell to must be defined in this list.
 
 #### Adding a Country
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_43.jpg](../assets/img_43.jpg) 
 
 * Country Name : Name of the country as it will be presented to the website user.
 * ISO2 Code : The ISO2 country code of that country.
@@ -367,7 +367,7 @@ Please note that any country you wish to sell to must be defined in this list.
 
 #### Zones
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_44.jpg](../assets/img_44.jpg) 
 
 Zones can be managed from the xAsset Control Panel and by clicking on the Zones tab on the navigation tab.
 
@@ -383,7 +383,7 @@ Zones are not required for all countries, as the there is an All Zones option th
 
 #### Taxes & Rates
 
-![img_12.jpg](../assets/img_12.jpg) 
+![img_45.jpg](../assets/img_45.jpg) 
 
 The Taxes & Rates page can be accessed by clicking the Taxes and Rates tab in the xAsset Control Panel.
 
