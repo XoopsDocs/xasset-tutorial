@@ -542,25 +542,38 @@ The Paypal module utilises Paypal's Instant Payment Notification (IPN) facility 
 Several checks are carried out to ensure that the transaction between your server and Paypal has not been tampered with.
 
 * xAsset will not continue unless Paypal verifies that the encrypted key it has passed to your server has been returned correctly. This prevents users from altering any details by hacking the checkout page.
-* Order values are checked when they are returned from Paypal against the calculated order value from the cart. If these don't match the process will fail. * The currency Paypal returns must match the currency selected by your client. If this doesn't match the transaction will fail.
+* Order values are checked when they are returned from Paypal against the calculated order value from the cart. If these don't match the process will fail. 
+* The currency Paypal returns must match the currency selected by your client. If this doesn't match the transaction will fail.
 * Paypal provides a transaction id for each payment it process. These are stored in xAsset and a purchase will fail if a duplicate transaction id is returned by Paypal (usually means a hack attempt).
 * XAsset checks that the receiver email matches your Paypal email address. If these don't match the transaction will fail.
+
 Please note that the Paypal plugin version must match the current xAsset version otherwise it will be disabled. Using the Paypal plugin from older xAsset versions will no longer function in newer versions.
 
-Bill Me
+#### Bill Me
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 The Bill plugin is a very simple plugin allowing clients to choose a "Bill Me Later" option. Clients who choose this method of payment will still receive an order confirmation email detailing their order. These order, however, will require manual processing in the Order Tracking page.
+
 Extra information can be provided to the client by adding text into the Extra Instructions box. Any text here will be displayed to the client prior to order completion. Please note that XoopsCodes can be used if you require extra formatting.
+
 In the Order Tracking page select manual orders and choose Complete Orders Manually from the Complete Orders Manually Batch actions section.
-xAsset Subscriptions
+
+#### xAsset Subscriptions
+
 The Applications setup page describes how to it is possible to sell membership using xAsset by defining a Xoops group that the client is added to when the order is complete.
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 A new feature in xAsset 0.92 is the ability for your clients to view their current subscription plan details along with an option to extend these plans through a Buy Now button.
 
-Automatically Expiring Subscriptions
+#### Automatically Expiring Subscriptions
+
 A script is provided that will:
-1.
-Warning members that their membership is about to auto expire x number of days before expiry. The warning period can be set in xAsset's General Configuation page.
-2.
-Expire members whose subscriptions have lapsed. Expired members will receive an email explaining that there subscription has lapsed.
+
+1. Warning members that their membership is about to auto expire x number of days before expiry. The warning period can be set in xAsset's General Configuation page.
+2. Expire members whose subscriptions have lapsed. Expired members will receive an email explaining that there subscription has lapsed.
+
 This functionality can be activated by calling the xAsset/expire.php script from a cron job. Set this to run once a day to monitor subscriptions.
 Introduction
 A new feature in xAsset is the ability to delivery FLV videos via streaming. This enables xAsset to be used as a tool to construct a video based Pay-Per-View website.
