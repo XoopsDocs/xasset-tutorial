@@ -504,26 +504,43 @@ Please note that the Order Status is either of:
 5. Complete. Order is complete.
 
 #### Group Membership
+
 ![img_12.jpg](../assets/img_12.jpg) 
+
 The Group membership tabbed (under the Membership tab) displays a list of all UIDs that have been allocated to Xoops Groups when purchasing an Application Product.
+
 This screen will list all such members and sort the result according to expiry dates. Any members that who's membership has expired will display the Expires date in bold.
+
 Please note the following:
+
 * Quantities ordered have an influence over expiry dates. If a User orders two quantities of an application product that has en expiry date of One Month this will in effect expire in two months
 * A User that purchases an application product before his or her expiry date will have the additional expiry period added on top of their current expiry period. An example would be if my membership expires in ten days today and today I ordered an application product with a One Month period this would give me a net of ten plus 30 days = 40 days.
+
 Please read the Subscriptions section for further information.
 
-Paypal
+#### Paypal
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Paypal is the default Payment Gateway provided with xAsset.
+
 * Paypal Sandbox Test Mode : This sets the Paypal gateway process to operate in test mode and allows you to test your cart via Paypal's sandbox testing website. Further details on sandbox testing can be obtained from Paypal.
 * Paypal Identifying email : This is the email that is used to identify your merchant account with Paypal. All Paypal payments will be sent to this email Account. This email must be the same email used to log into your Paypal account.
-* Your Online Store Name : This is the name of your store as presented to your client when she is directed to Paypal to complete her payment details. * Payment Description : This is the text that is presented to your clients when a list
-of payment gateways available on checkout. * Enable Paypal Module : Tick to enable the Paypal module. * Default to if unsupported : This is the default currency that will be sent to Paypal
-if the current cart currency is not a supported Paypal currency. Prices will be converted appropriately to this value. Please note that Paypal defines a limited number of accepted currencies. If your base currency is not an accepted currency then the default currency here can be define to be the USD, for example. Checkout cart values will then be converted to this value and passed to Paypal for processing. The Default Currency must also be setup in the Currency tab for the gateway to determine the correct conversion rates.
+* Your Online Store Name : This is the name of your store as presented to your client when she is directed to Paypal to complete her payment details. 
+* Payment Description : This is the text that is presented to your clients when a list of payment gateways available on checkout. 
+* Enable Paypal Module : Tick to enable the Paypal module. 
+* Default to if unsupported : This is the default currency that will be sent to Paypal if the current cart currency is not a supported Paypal currency. Prices will be converted appropriately to this value. Please note that Paypal defines a limited number of accepted currencies. If your base currency is not an accepted currency then the default currency here can be define to be the USD, for example. Checkout cart values will then be converted to this value and passed to Paypal for processing. The Default Currency must also be setup in the Currency tab for the gateway to determine the correct conversion rates.
+
 Please note that the Sales tax amount, if any,is passed to Paypal in a separate field from the cart net amount. This Sales Tax amount is not visible in Paypal until the buyer confirms the transaction with Paypal.
+
 The Paypal module utilises Paypal's Instant Payment Notification (IPN) facility for payment processing. This payment method has the following requirements:
 
-* The server on which your site is hosted must be able to make outgoing SSL (port 443) connections. * Paypal verifies the payment by sending your server an encrypted key. This means that Paypal's servers must be able to access your website server. * Please note that eCheck payments are not supported for the time being and these must be disabled in your Paypal profile.
+* The server on which your site is hosted must be able to make outgoing SSL (port 443) connections. 
+* Paypal verifies the payment by sending your server an encrypted key. This means that Paypal's servers must be able to access your website server. 
+* Please note that eCheck payments are not supported for the time being and these must be disabled in your Paypal profile.
+ 
 Several checks are carried out to ensure that the transaction between your server and Paypal has not been tampered with.
+
 * xAsset will not continue unless Paypal verifies that the encrypted key it has passed to your server has been returned correctly. This prevents users from altering any details by hacking the checkout page.
 * Order values are checked when they are returned from Paypal against the calculated order value from the cart. If these don't match the process will fail. * The currency Paypal returns must match the currency selected by your client. If this doesn't match the transaction will fail.
 * Paypal provides a transaction id for each payment it process. These are stored in xAsset and a purchase will fail if a duplicate transaction id is returned by Paypal (usually means a hack attempt).
