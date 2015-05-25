@@ -575,37 +575,37 @@ A script is provided that will:
 2. Expire members whose subscriptions have lapsed. Expired members will receive an email explaining that there subscription has lapsed.
 
 This functionality can be activated by calling the xAsset/expire.php script from a cron job. Set this to run once a day to monitor subscriptions.
-Introduction
+
+#### Introduction
+
 A new feature in xAsset is the ability to delivery FLV videos via streaming. This enables xAsset to be used as a tool to construct a video based Pay-Per-View website.
+
 Our streaming solution supports:
-1.
-Large video files (>100MB and upwards with no top limit).
-2.
-Requires Web Server with PHP support. No extra streaming software.
-3.
-Pure streaming with support to seeking/scrubbing to any point in the video including video that has not been downloaded.
-4.
-ANY FLV file can be streamed. FLV files do not require Metadata injection.
-5.
-Will work in Apache, Lighttpd and pretty much any web server.
-6.
-FLV source files are secured and placed outside of a web server’s public directory.
-7.
-Support for Bandwidth throttling to distribute load for busy sites.
-8.
-No intermediary FLV files are created… all is done in PHP.
-9.
-Does not require any extra external tools and will run under *nix, OS X, Windows etc…
+
+1. Large video files (>100MB and upwards with no top limit).
+2. Requires Web Server with PHP support. No extra streaming software.
+3. Pure streaming with support to seeking/scrubbing to any point in the video including video that has not been downloaded.
+4. ANY FLV file can be streamed. FLV files do not require Metadata injection.
+5. Will work in Apache, Lighttpd and pretty much any web server.
+6. FLV source files are secured and placed outside of a web server’s public directory.
+7. Support for Bandwidth throttling to distribute load for busy sites.
+8. No intermediary FLV files are created… all is done in PHP.
+9. Does not require any extra external tools and will run under *nix, OS X, Windows etc…
+
 Benefits of streamed video as opposed to standard or progressive video delivery:
+
 * Fast start: Streaming FLV files is the fastest way to start playing any video on the web.
 * More efficient use of network resources: Customers who pay for their video hosting or bandwidth by the amount that is transferred benefit from streaming video because only the bits that the client views are transferred.
 
 * Secure media delivery: Because the streamed media is not saved to the client's cache, users cannot rifle through their temporary Internet files folder to get the video file.
 * Minimal use of client resources: Streaming reduces memory and disk space significantly because the client does not need to download the entire file.
 * Full seek and navigation: Viewers can immediately seek to any point in the video and have it start playing immediately. xAsset immediately delivers the requested video and the user doesn't have to wait until the entire video is downloaded before navigating to a particular mark. This makes streaming a great solution for longer playing videos or applications such as video blogging, where you may want to jump into the video at a specific point rather than requiring the viewer to watch it from the beginning.
+
 The only supported video format is FLV.
+
 FLV videos are streamed via our streaming script and played back via the xStreamer Flash Player on a client's web browser. As with all digital media with xAsset, you can can specify how many times the video can be viewed and for how long from date of purchase. After this period the client will not be able watch expired videos.
-Please note that video streaming is provided as a commercial plugin for xAsset and is not distributed with xAsset. Please visit the xAsset Shop for prices and to purchase this plugin.
+
+**Please note that video streaming is provided as a commercial plugin for xAsset and is not distributed with xAsset. Please visit the xAsset Shop for prices and to purchase this plugin.**
 
 How to
 FLV Video files are added as packages, which are then associated with an application product. The following example will illistrate this:
