@@ -607,9 +607,12 @@ FLV videos are streamed via our streaming script and played back via the xStream
 
 **Please note that video streaming is provided as a commercial plugin for xAsset and is not distributed with xAsset. Please visit the xAsset Shop for prices and to purchase this plugin.**
 
-How to
+#### How to
+
 FLV Video files are added as packages, which are then associated with an application product. The following example will illistrate this:
+
 There is an event, for example a music concert. This concert has three sets, each set is performed by seperate artists. You have video footage of this concert and would like to sell it as three items:
+
 Rock You Hard Concert - Set 1 by Def Leppard ($20) - Set 2 by Europe ($30) and Set 3 by Sister of Mercy ($40).
 
 The above can be setup as follows:
@@ -619,7 +622,7 @@ The above can be setup as follows:
 * Finally, link each Package Group to the application product.
 
 #### Currencies
-
+![img_12.jpg](../assets/img_12.jpg) 
 The currencies block displays all available currencies for your clients. By default this block is disabled but must be enabled if you intend to use multiple currencies with xAsset. All price information is displayed by the chosen currency.
 
 Ideally this block should be visible in the xAsset module only.
