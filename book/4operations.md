@@ -325,11 +325,19 @@ Click on the Package Packages tab in the xAsset Control Panel to access the Pack
 * This is a Video File : Check this box when adding a video file as this determines if the file is downloadable or for playback only. Video files that have this unchecked will be downloaded. When checked, video files will be streamed via the xStreamer Flash Player.
 * Protected : This must be ticked if you wish your file to be securely downloaded. Files that are protected cannot be downloaded unless they have been purchased by the client and none of the conditions (ie max downloads count, expiry date) have been met. Leave a file unprotected if you wish to use the download mechanisms in xAsset but to make the download link available outside of xAsset's shop interface.
 
-Tax Regions
+#### Tax Regions
+
+![img_11.jpg](../assets/img_11.jpg) 
+
 Tax Regions can be managed by clicking on the Regions tab on the xAsset navigation tab.
+
 Tax regions are used to define geographic regions where tax rates differ. Tax Rates are then defined against Tax Regions.
-Adding a Region
-* Region : Region name. * Description : A brief description.
+
+#### Adding a Region
+![img_11.jpg](../assets/img_11.jpg) 
+
+* Region : Region name. 
+* Description : A brief description.
 
 Countries
 Click on the Countries tab to maintain and add to the Countries list. The main table shows all defined countries with their respective ISO code. These can be edited and deleted as required.
