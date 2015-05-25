@@ -421,8 +421,8 @@ Please note that a Tax Rate cannot be added unless there is at least one Region 
 ![img_12.jpg](../assets/img_12.jpg) 
 
 Currencies can be managed by clicking on the Currencies tab in the xAsset Control Panel.
-Xasset supports multipl
-e currencies. By defining a base currency for your website, xAsset will convert Application Product prices to the client's preferred currency. Application Product values are then converted using the supplied currency exchange rate.
+
+Xasset supports multiple currencies. By defining a base currency for your website, xAsset will convert Application Product prices to the client's preferred currency. Application Product values are then converted using the supplied currency exchange rate.
 
 #### Adding a Currency.
 
@@ -436,9 +436,13 @@ e currencies. By defining a base currency for your website, xAsset will convert 
 * Decimal Symbol : define the decimal symbol for this currency.
 * Thousand Separator : define the thousand separator for this currency.
 * Exchange Rate : define the exchange rate against the Base Currency.
+
 Please note that the Decimal Places, Symbol Left, Symbol Right, Decimal Symbol and Thousand Separator are used to format Application Product prices to your clients.
 
-Download Stats
+#### Download Stats
+
+![img_12.jpg](../assets/img_12.jpg) 
+
 Xasset tracks all Package downloads by logging the logged in User, if a registered licensed user, their IP address and the date and time of the download. This information can be accessed from the Download Stats tab from the xAsset Control Panel.
 The above table provides a brief summary of all defined Applications with total package downloads per application. Click on the required Application for a more detailed download stats
 Downloads are grouped by Package Group and Package. In the above example we can see the download stats for SimplePop. SimplePop has one Package Group defined, Executable. This Package Group contains two packages, Help file and Main file. The download stats shows a detailed breakdown for both packages.
