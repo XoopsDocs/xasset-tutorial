@@ -1,47 +1,50 @@
-### _XOOPS Documentation Series_
-![logoXoops.jpg](en/assets/logoXoops.jpg)
+# Introduction
 
-# Module xAsset
+![logoXoops.jpg](.gitbook/assets/logoxoops.jpg)
+
+## Module xAsset
+
 #### for XOOPS 2.5.7
-      
-![logoModule.png](en/assets/logoModule.png)
-            
-## User Manual
 
-© 2016 XOOPS Project ([www.xoops.org](http://xoops.org))   
+![logoModule.png](.gitbook/assets/logomodule.png)
 
-## Module Purpose 
+### User Manual
+
+© 2016 XOOPS Project \([www.xoops.org](http://xoops.org)\)
+
+### Module Purpose
 
 **XAsset** is a Xoops module designed for digital media sales and distribution. Initially this was designed for Shareware authors but the module architecture can also be extended to selling and distributing any digital asset such as MP3 files, EXE files or PDF documents. Anything that can be downloaded can be managed from xAsset.
 
-![image001.png](en/assets/image001.png)
-*Figure 1: Main view of the xAssets Module (Admin side)*
+![image001.png](https://github.com/XoopsDocs/xasset-tutorial/tree/9b95bc0ae0219c95a8cf16e77b9cd2175d856e89/en/assets/image001.png) _Figure 1: Main view of the xAssets Module \(Admin side\)_
 
-## Download/Fork the Module ![](http://xoops.org/images/forkit.png)  
+### Download/Fork the Module ![](http://xoops.org/images/forkit.png)
 
-**You can fork the module --> [here](https://github.com/XoopsModules25x/xassets))** 
+**You can fork the module --&gt;** [**here**](https://github.com/XoopsModules25x/xassets)**\)**
 
-## How to Contribute
+### How to Contribute
 
 [You can contribute on GitHub](https://github.com/XoopsDocs/xassets-tutorial). Changes will be [pushed to Gitbook.io automatically](https://www.gitbook.com/book/xoops/xassets-tutorial/activity) when the [main repository](https://github.com/XoopsDocs/xassets-tutorial) changes.
 
 Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md). The desktop app will give you a live preview option.
 
-# Table of Content
+## Table of Content
 
-* [Install/Uninstall](en/book/1install.md)
-* [Administration Menu](en/book/2administration.md)
-* [Preferences](en/book/3preferences.md)
-* [Operating Instructions](en/book/4operations.md)
-* [The User Side](en/book/5userside.md)
-* [Blocks](en/book/6blocks.md)
-* [Templates](en/book/7templates.md)
-* [Miscellaneous](en/book/8other.md) 
-* [Module Credits](en/book/9credits.md)
-* [About XOOPS CMS](en/book/10aboutxoops.md)
+* [Install/Uninstall](install-uninstall.md)
+* [Administration Menu](administration-menu.md)
+* [Preferences](preferences.md)
+* [Operating Instructions](operating-instructions.md)
+* [The User Side](the-user-side.md)
+* [Blocks](blocks.md)
+* [Templates](templates.md)
+* [Miscellaneous](other.md) 
+* [Module Credits](module-credits.md)
+* [About XOOPS CMS](about-xoops-cms.md)
 
-##License:
+### License:
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Unless specified, this content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
+Unless specified, this content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-All derivative works are to be attributed to XOOPS Project ([www.xoops.org](http://xoops.org))
+All derivative works are to be attributed to XOOPS Project \([www.xoops.org](http://xoops.org)\)
+
