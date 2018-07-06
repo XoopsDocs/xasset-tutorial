@@ -1,41 +1,42 @@
 # Operating Instructions
 
-## What is XAsset
+#### What is xAsset
 
-XAsset is a Xoops module designed for digital media sales and distribution. Initially this was designed for Shareware authors but the module architecture can also be extended to selling and distributing any digital asset such as MP3 files, EXE files or PDF documents. Anything that can be downloaded can be managed from xAsset.
+xAsset is a Xoops module designed for digital media sales and distribution. Initially this was designed for Shareware authors but the module architecture can also be extended to selling and distributing any digital asset such as MP3 files, EXE files or PDF documents. Anything that can be downloaded can be managed from xAsset.
 
-![img\_1.jpg](.gitbook/assets/img_1.jpg)
+![img_1.jpg](../assets/img_1.jpg)
 
-As can be seen, the Application is central to xAsset. The application can be seen as the top level object that describes a particular application that is being sold. Another way of looking at an application is thinking of it as a Music album. An album could have multiple tracks, in this case Application Products. An Application product can either describe the whole album \(£9.99 for the whole album\) or it can describe an individual track \(£0.99 per track for example\). The Application Products describes your price structure for the Application. An Application can have multiple Application Products.
+As can be seen, the Application is central to xAsset. The application can be seen as the top level object that describes a particular application that is being sold. Another way of looking at an application is thinking of it as a Music album. An album could have multiple tracks, in this case Application Products. An Application product can either describe the whole album (£9.99 for the whole album) or it can describe an individual track (£0.99 per track for example). The Application Products describes your price structure for the Application. An Application can have multiple Application Products.
 
-The Applications physical attributes \(ie files\) are described via the Package Groups and Packages. Packages describe files where a Package Group groups together Packages. An application can have multiple Package Groups and a Package Group can contain multiple files.
+The Applications physical attributes (ie files) are described via the Package Groups and Packages. Packages describe files where a Package Group groups together Packages. An application can have multiple Package Groups and a Package Group can contain multiple files.
 
-![img\_2.jpg](.gitbook/assets/img_2.jpg)
+![img_2.jpg](../assets/img_2.jpg)
 
 Tax always creeps up when selling anything! xAsset supports multiple tax levels by defining geographic tax regions and setting appropriate tax rates for each region. The Tax structure is as follows:
-
 * Each Country can have many zones defined. This structure could be used to describe the USA, as a country, and its states as zones.
-* A tax region can be defined by pairing a Country and a Zone. Tax Regions are used to describe geographic locations where extra tax handling is required. An example would be Region 1 where USA is defines with all zones. This describes a federal tax for example. Region 2 can then be defined to group the USA and New York zone together. This can then define an additional state tax. When a client chooses New York as his state/zone, she will be liable for federal tax \(Region 1\) and a state tax \(Region 2\).
-* Each application must have a Tax Class defined, ie "Taxable Goods". This Tax Class can then be set a Tax Rate depending on the Tax Region. This allows you to set the Tax Class "Taxable Goods" and assign a 5% federal tax \(Region 1\) and a 7% tax \(Region 2\) using the above example. Non taxable goods must be assigned a tax of 0%.
+* A tax region can be defined by pairing a Country and a Zone. Tax Regions are used to describe geographic locations where extra tax handling is required. An example would be Region 1 where USA is defines with all zones. This describes a federal tax for example. Region 2 can then be defined to group the USA and New York zone together. This can then define an additional state tax. When a client chooses New York as his state/zone, she will be liable for federal tax (Region 1) and a state tax (Region 2).
+* Each application must have a Tax Class defined, ie "Taxable Goods". This Tax Class can then be set a Tax Rate depending on the Tax Region. This allows you to set the Tax Class "Taxable Goods" and assign a 5% federal tax (Region 1) and a 7% tax (Region 2) using the above example. Non taxable goods must be assigned a tax of 0%.
 * Each client must specify both their Country of Origin and a State/Zone, if one is defined. This is then used to calculate the appropriate tax.
 
 Please read the Tax & Rates section for more information.
 
-## Item Ordering Workflow
+#### Item Ordering Workflow
 
-There are two types of products that can be sold through xAsset: 1. Media based assets. This can be a pdf file, a zip file, mp3 file etc. Any file that can be bought and downloaded. 2. Service asset. This is a service and as such does not have a corresponding file and cannot be downloaded.
 
-## Asset Based Order Workflow
+There are two types of products that can be sold through xAsset:
+1. Media based assets. This can be a pdf file, a zip file, mp3 file etc. Any file that can be bought and downloaded.
+2. Service asset. This is a service and as such does not have a corresponding file and cannot be downloaded.
+ 
+#### Asset Based Order Workflow
 
-![img\_3.jpg](.gitbook/assets/img_3.jpg)
+![img_3.jpg](../assets/img_3.jpg)
 
 An Application product can have a Package Group assigned to it. A Package group can contain any number of files. Once an application product is ordered it is placed in the Order table and can immediately be seen by the client in the My Downloads section once the client has proceeded to the payment gateway.
 
 Items shown in the My Downloads section only be live and downloadable once the payment gateway has confirmed that a payment was received. In the case of Paypal this is triggered via an IPN callback.
 
-## Permission Based Order Workflow
-
-![img\_4.jpg](.gitbook/assets/img_4.jpg)
+#### Permission Based Order Workflow
+![img_4.jpg](../assets/img_4.jpg)
 
 Alternatively, an application product can be instructed to add the client to a Xoops Group. Where no Package Group is specified, the client is added to the specified Xoops Group once a successful message is received from the payment gateway.
 
@@ -55,7 +56,7 @@ By default xAsset will install the USD and GBP currencies for your. If you requi
 
 Go back into xAsset by clicking the xAsset logo on the left hand site of the Control Panel. Click on the "xAsset Configuration" link at the top of the page. Select your Base Currency, the Email Notification Group and Usergroup User List . Click on modify to continue.
 
-**3. Create an Application/Item** 
+**3. Create an Application/Item**
 
 ![img\_7.jpg](.gitbook/assets/img_7.jpg)
 
@@ -86,7 +87,8 @@ These are the minimal steps required to start selling with xAsset.
 
 ## Tax Setup - Overview
 
-_**XAsset Quick Install**_ 1. Setup Currencies
+***xAsset Quick Install***
+1. Setup Currencies
 
 ![img\_12.jpg](.gitbook/assets/img_12.jpg)
 
@@ -94,31 +96,30 @@ Click on the Currencies tab to setup at least one currency to use as a default. 
 
 ![img\_13.jpg](.gitbook/assets/img_13.jpg)
 
-Go back into xAsset by clicking the XAsset logo on the left hand site of the Control Panel. Click on the "xAsset Configuration" link at the top of the page. Select your Base Currency, the Email Notification Group and Usergroup User List . Click on modify to continue.
+Go back into xAsset by clicking the xAsset logo on the left hand site of the Control Panel. Click on the "xAsset Configuration" link at the top of the page. Select your Base Currency, the Email Notification Group and Usergroup User List . Click on modify to continue.
 
 ![img\_14.jpg](.gitbook/assets/img_14.jpg)
 
-Return to the XAsset Control Panel and click on the Preferences link in the top left of the navigation bar. Select whether the above columns are displayed when displaying Application Products.
+Return to the xAsset Control Panel and click on the Preferences link in the top left of the navigation bar. Select whether the above columns are displayed when displaying Application Products.
 
-1. Add Regions  Add regions to specify geographic tax locations. Tax Rates will be defined against these Tax Regions.
+3. Add Regions
+![img_15.jpg](../assets/img_15.jpg) 
+Add regions to specify geographic tax locations. Tax Rates will be defined against these Tax Regions.
 
-   ![img\_15.jpg](.gitbook/assets/img_15.jpg)
-
-2. Add Zones. 
-
-   ![img\_16.jpg](.gitbook/assets/img_16.jpg)
+4. Add Zones.
+![img_16.jpg](../assets/img_16.jpg) 
 
 Next add your zones by clicking on the Zones tab in the xAsset Control Panel. Zones can break down a country into states or regions. If a country does not require any zones then none are needed. In such a situation, the customer will be asked to type in the state/region as opposed to select from a predefined list of zones.
 
-1. Setup Tax Zones and Link to Regions
+5. Setup Tax Zones and Link to Regions
+ ![img_17.jpg](../assets/img_17.jpg)
 
-   ![img\_17.jpg](.gitbook/assets/img_17.jpg)
+Next click on the Taxes & Rates tab on the xAsset navigation bar.
+Tax Zones link country zones (or states) and regions to define specific tax rates for that region. This can be used to define a country wide sales tax or defining a zone specific tax... or both.
+Tax Zone can also be set countrywide be selecting All Zones when adding a tax zone.
 
-Next click on the Taxes & Rates tab on the xAsset navigation bar. Tax Zones link country zones \(or states\) and regions to define specific tax rates for that region. This can be used to define a country wide sales tax or defining a zone specific tax... or both. Tax Zone can also be set countrywide be selecting All Zones when adding a tax zone.
-
-1. Setup Taxes & Rates
-
-   ![img\_18.jpg](.gitbook/assets/img_18.jpg)
+6. Setup Taxes & Rates
+ ![img_18.jpg](../assets/img_18.jpg) 
 
 Click on the Taxes & Rates icon in the xAsset Control Panel and add a Tax Class. Press create to continue.
 
@@ -211,7 +212,7 @@ The Application row describes:
 * Application : The Application Name.
 * Products : Number of Application Products for this Application.
 * Downloads : Total File downloads for this Application. More detail can be seen in the Download Stats page.
-
+ 
 The Application Product row describes:
 
 * Code : The defined Application Product Code.
@@ -232,10 +233,11 @@ The Application Product row describes:
 * Version : Version number.
 * Tick the Has Sample Products box if the Application product has a demo part.
 
-  This can be a 30 second sample of your track for example. This will show an extra column in the application product grid on the shop frontpage. 
+This can be a 30 second sample of your track for example. This will show an extra column in the application product grid on the shop frontpage. 
 
 * Tick relevant Group permissions in Xoops User Group Access. 
-* Application Image can optionally contain the path to an images to represents this application. Image paths must be absolute \(i.e.
+* Application Image can optionally contain the path to an images to represents this application. Image paths must be absolute (i.e.
+/home/yoursite/html/images/app1.gif).
 
   /home/yoursite/html/images/app1.gif\).
 
@@ -252,7 +254,7 @@ HTML Description Tag replacements
 
 The HTML description area recognises and parses the following general tags:
 
-| TAG | Description |
+|TAG | Description |
 | --- | --- |
 | {X\_MODULE} | Returns the module name \(xAsset\) |
 | {X\_SITEURL} | Returns XOOPS\_URL |
@@ -263,15 +265,17 @@ The HTML description area recognises and parses the following general tags:
 
 The following specialised tags are also provided when to describe products:
 
-| TAG | Description |
+|TAG | Description |
 | --- | --- |
 | {TAG.LIST} | Works in conjunction with Product List Templates by placing the application product list \(as specified by the $smarty template in Product List Template\) where specified. |
 | {TAG.PROD.BUY\[option image url\]} | Finds an application product with code PROD and generates a Buy Now button for it. You can optionally supply an image URL to be used for the button. If an optional image URL is not supplied then the default Buy Now button is used. |
-| {TAG.PROD.PRICE} | Finds an application product with code PROD and returns a formatted price using the currently selected currency format. |
-| {TAG.PROD.DESC} | Finds an application product with code PROD and returns the product description. |
+|{TAG.PROD.PRICE}|Finds an application product with code PROD and returns a formatted price using the currently selected currency format.|
+|{TAG.PROD.DESC}|Finds an application product with code PROD and returns the product description.|
 | {TAG.PROD.VIDEO\[package id\]} | Generates a Flash Player in place of the token and prepares the video specified in \[package id\] for playing. |
 
-Examples: 1. An application with a product code of PROD1. To generate a Buy Now button using the image in [http://domain.com/image/buynow.gif](http://domain.com/image/buynow.gif): {TAG.PROD1.BUY\[[http://domain.com/image/buynow.gif\]}](http://domain.com/image/buynow.gif]})
+Examples:
+1. An application with a product code of PROD1. To generate a Buy Now button using the image in http://domain.com/image/buynow.gif:
+{TAG.PROD1.BUY[http://domain.com/image/buynow.gif]}
 
 ## Adding An Application Product
 
@@ -296,10 +300,12 @@ Please note that you will not be able to add an application product unless: a cu
 * Sample Package Group. This defines which package Group will be available to the client for download as a sample. These can be downloaded immediately from the Application page without a purchase.
 * Add to Xoops User Group. Add the buyer to this Xoops user group on purchasing this application product. This is ideal for selling membership to premium areas of your site for example.
 * Group Membership Expires. Defines a membership expiry date, if any. Please note that quantities ordered have an influence over expiry dates. If a user orders two quantities of an application product that has en expiry date of One Month this will in effect expire in two months. Please note that this setting has no effect unless a group has been defined in Add to Xoops User Group.
-* ![img\_35.jpg](.gitbook/assets/img_35.jpg)
+* 
+![img_35.jpg](../assets/img_35.jpg) 
+
 * Extra Instructions provides a mechanism where each application product can specify a special instruction that will be included in the order confirmation sent to the client. This can can include download instructions, for example.
 * The Buy Now link generates HTML code than can be copied and pasted to any place on either your website or any other website. Uses can include the generation of Buy Now images that can be placed as banners that direct clients who click to your xAsset cart.
-
+ 
 ![img\_36.jpg](.gitbook/assets/img_36.jpg)
 
 ## Packages and Groups
@@ -405,7 +411,6 @@ Please note that a Tax Zone cannot be added unless at least one Region and Count
 
 ## Adding a Tax Class
 
-![img\_49.jpg](.gitbook/assets/img_49.jpg)
 
 * Code : Code to quickly reference this Tax Class. 
 * Description : Short description.
@@ -469,9 +474,8 @@ Each gateway, Paypal for example can be configured separately depending on what 
 
 Please contact Panther Software Publishing if you require extra payment gateways.
 
-## Payment Gateway Logs
-
-![img\_56.jpg](.gitbook/assets/img_56.jpg)
+#### Payment Gateway Logs
+![img_56.jpg](../assets/img_56.jpg) 
 
 The payment gateway logs display all communications between xAsset and the payment gateway. The details here can be useful when trying to determine why a particular payment has failed. In Paypal's case this can be for several reasons and these records can help determine this.
 
@@ -496,10 +500,11 @@ This screen displays all orders placed through xAsset.
 * Status : Order status.
 * Transaction : Transaction ID of this order once the payment gateway has
 
-  indicated that this order is complete.
+indicated that this order is complete.
 
 * Currency: Currency of the order.
 * Order Value : Total Order Value.
+*Order Fee : Order handling fee as charged by the payment gateway.
 
   \*Order Fee : Order handling fee as charged by the payment gateway.
 
@@ -507,7 +512,12 @@ This screen displays all orders placed through xAsset.
 
 Additional information such as the ordered items \(with quantities\) and any gateway logs will be displayed.
 
-Please note that the Order Status is either of: 1. New Order. The client has just added the item to her cart. 2. At Checkout. The client has proceeded to checkout. 3. Gone to Gateway. The client has been sent to her choice of payment gateway \(if multiple payment gateways are installed\). 4. Awaiting Validation. The client has returned from the payment gateway but if a validating payment gateway is selected \(ie Paypal's IPN\), then the server is waiting for the confirmation from the payment gateway. 5. Complete. Order is complete.
+Please note that the Order Status is either of:
+1. New Order. The client has just added the item to her cart.
+2. At Checkout. The client has proceeded to checkout.
+3. Gone to Gateway. The client has been sent to her choice of payment gateway (if multiple payment gateways are installed).
+4. Awaiting Validation. The client has returned from the payment gateway but if a validating payment gateway is selected (ie Paypal's IPN), then the server is waiting for the confirmation from the payment gateway.
+5. Complete. Order is complete.
 
 ## Group Membership
 
@@ -544,14 +554,14 @@ The Paypal module utilises Paypal's Instant Payment Notification \(IPN\) facilit
 * The server on which your site is hosted must be able to make outgoing SSL \(port 443\) connections. 
 * Paypal verifies the payment by sending your server an encrypted key. This means that Paypal's servers must be able to access your website server. 
 * Please note that eCheck payments are not supported for the time being and these must be disabled in your Paypal profile.
-
+ 
 Several checks are carried out to ensure that the transaction between your server and Paypal has not been tampered with.
 
 * xAsset will not continue unless Paypal verifies that the encrypted key it has passed to your server has been returned correctly. This prevents users from altering any details by hacking the checkout page.
 * Order values are checked when they are returned from Paypal against the calculated order value from the cart. If these don't match the process will fail. 
 * The currency Paypal returns must match the currency selected by your client. If this doesn't match the transaction will fail.
 * Paypal provides a transaction id for each payment it process. These are stored in xAsset and a purchase will fail if a duplicate transaction id is returned by Paypal \(usually means a hack attempt\).
-* XAsset checks that the receiver email matches your Paypal email address. If these don't match the transaction will fail.
+* xAsset checks that the receiver email matches your Paypal email address. If these don't match the transaction will fail.
 
 Please note that the Paypal plugin version must match the current xAsset version otherwise it will be disabled. Using the Paypal plugin from older xAsset versions will no longer function in newer versions.
 
@@ -603,6 +613,7 @@ Benefits of streamed video as opposed to standard or progressive video delivery:
 * Fast start: Streaming FLV files is the fastest way to start playing any video on the web.
 * More efficient use of network resources: Customers who pay for their video hosting or bandwidth by the amount that is transferred benefit from streaming video because only the bits that the client views are transferred.
 * Secure media delivery: Because the streamed media is not saved to the client's cache, users cannot rifle through their temporary Internet files folder to get the video file.
+
 * Minimal use of client resources: Streaming reduces memory and disk space significantly because the client does not need to download the entire file.
 * Full seek and navigation: Viewers can immediately seek to any point in the video and have it start playing immediately. xAsset immediately delivers the requested video and the user doesn't have to wait until the entire video is downloaded before navigating to a particular mark. This makes streaming a great solution for longer playing videos or applications such as video blogging, where you may want to jump into the video at a specific point rather than requiring the viewer to watch it from the beginning.
 
@@ -634,7 +645,6 @@ The currencies block displays all available currencies for your clients. By defa
 
 Ideally this block should be visible in the xAsset module only.
 
-## Top Downloads
 
 ![img\_66.jpg](.gitbook/assets/img_66.jpg)
 
@@ -660,3 +670,4 @@ Ideally this block should be displayed on all pages.
 
 The Applications Block simply lists all xAsset applications in a block. This is useful when the Main menu has been disabled and an alternative method for listing applications is required.
 
+The Applications Block simply lists all xAsset applications in a block. This is useful when the Main menu has been disabled and an alternative method for listing applications is required.

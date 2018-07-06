@@ -5,12 +5,12 @@
 ## Module xAsset
 
 #### for XOOPS 2.5.7
-
+      
 ![logoModule.png](.gitbook/assets/logomodule.png)
-
+            
 ### User Manual
 
-© 2016 XOOPS Project \([www.xoops.org](http://xoops.org)\)
+© 2016 XOOPS Project ([www.xoops.org](https://xoops.org))   
 
 ### Module Purpose
 
@@ -18,7 +18,7 @@
 
 ![image001.png](https://github.com/XoopsDocs/xasset-tutorial/tree/9b95bc0ae0219c95a8cf16e77b9cd2175d856e89/en/assets/image001.png) _Figure 1: Main view of the xAssets Module \(Admin side\)_
 
-### Download/Fork the Module ![](http://xoops.org/images/forkit.png)
+## Download/Fork the Module ![](https://xoops.org/images/forkit.png)  
 
 **You can fork the module --&gt;** [**here**](https://github.com/XoopsModules25x/xassets)**\)**
 
@@ -46,5 +46,6 @@ Editing the book can be done either by updating the markdown files with a text e
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 Unless specified, this content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-All derivative works are to be attributed to XOOPS Project \([www.xoops.org](http://xoops.org)\)
+All derivative works are to be attributed to XOOPS Project \([www.xoops.org](https://xoops.org)\)
 
+All derivative works are to be attributed to XOOPS Project ([www.xoops.org](https://xoops.org))
