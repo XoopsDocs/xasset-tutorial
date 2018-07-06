@@ -10,13 +10,13 @@
             
 ### User Manual
 
-© 2016 XOOPS Project ([www.xoops.org](https://xoops.org))   
+© 2018 XOOPS Project ([www.xoops.org](https://xoops.org))   
 
 ### Module Purpose
 
 **XAsset** is a Xoops module designed for digital media sales and distribution. Initially this was designed for Shareware authors but the module architecture can also be extended to selling and distributing any digital asset such as MP3 files, EXE files or PDF documents. Anything that can be downloaded can be managed from xAsset.
 
-![image001.png](https://github.com/XoopsDocs/xasset-tutorial/tree/9b95bc0ae0219c95a8cf16e77b9cd2175d856e89/en/assets/image001.png) _Figure 1: Main view of the xAssets Module \(Admin side\)_
+![](https://github.com/XoopsDocs/xasset-tutorial/tree/9b95bc0ae0219c95a8cf16e77b9cd2175d856e89/en/assets/image001.png) _Figure 1: Main view of the xAssets Module \(Admin side\)_
 
 ## Download/Fork the Module ![](https://xoops.org/images/forkit.png)  
 
